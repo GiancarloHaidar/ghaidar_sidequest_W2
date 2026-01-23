@@ -63,10 +63,10 @@ function setup() {
 }
 
 function draw() {
-  background(135, 206, 235);
+  background(90, 222, 255);
 
   // --- Draw all platforms ---
-  fill(124, 252, 0);
+  fill(63, 155, 11);
   for (const p of platforms) {
     rect(p.x, p.y, p.w, p.h, 5);
   }
@@ -158,7 +158,7 @@ function overlap(a, b) {
 
 // Draws the blob using Perlin noise for a soft, breathing effect
 function drawBlobCircle(b) {
-  fill(248, 214, 100);
+  fill(242, 215, 5);
   beginShape();
 
   for (let i = 0; i < b.points; i++) {
