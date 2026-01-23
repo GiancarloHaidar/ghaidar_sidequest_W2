@@ -24,7 +24,7 @@ let blob3 = {
   // Movement tuning
   accel: 0.55, // Horizontal acceleration
   maxRun: 4.0, // Maximum horizontal speed
-  gravity: 0.45, // Downward force
+  gravity: 0.1, // Downward force
   jumpV: -11.0, // Initial jump impulse
 
   // State
@@ -158,7 +158,7 @@ function overlap(a, b) {
 
 // Draws the blob using Perlin noise for a soft, breathing effect
 function drawBlobCircle(b) {
-  fill(202, 34, 96);
+  fill(248, 214, 100);
   beginShape();
 
   for (let i = 0; i < b.points; i++) {
