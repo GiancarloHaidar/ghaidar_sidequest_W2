@@ -141,7 +141,11 @@ function draw() {
 
   // --- HUD ---
   fill(0);
-  text("Move: A/D or ←/→  •  Jump: Space/W/↑  •  Land on platforms", 10, 18);
+  text(
+    "Move: A/D or ←/→  •  Jump: Space/W/↑  •  Land on platforms • Have fun! 😊",
+    10,
+    18,
+  );
 }
 
 // Axis-Aligned Bounding Box (AABB) overlap test
