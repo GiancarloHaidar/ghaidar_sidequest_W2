@@ -9,7 +9,7 @@ let blob3 = {
 
   // Visual properties
   r: 26, // Base radius
-  points: 5, // Number of points used to draw the blob
+  points: 12, // Number of points used to draw the blob
   wobble: 15, // Edge deformation amount
   wobbleFreq: 0.9,
 
@@ -24,7 +24,7 @@ let blob3 = {
   // Movement tuning
   accel: 0.55, // Horizontal acceleration
   maxRun: 4.0, // Maximum horizontal speed
-  gravity: 0.65, // Downward force
+  gravity: 0.45, // Downward force
   jumpV: -11.0, // Initial jump impulse
 
   // State
@@ -63,12 +63,12 @@ function setup() {
 }
 
 function draw() {
-  background(240);
+  background(135, 206, 235);
 
   // --- Draw all platforms ---
-  fill(200);
+  fill(124, 252, 0);
   for (const p of platforms) {
-    rect(p.x, p.y, p.w, p.h);
+    rect(p.x, p.y, p.w, p.h, 5);
   }
 
   // --- Input: left/right movement ---
@@ -154,7 +154,7 @@ function overlap(a, b) {
 
 // Draws the blob using Perlin noise for a soft, breathing effect
 function drawBlobCircle(b) {
-  fill(20, 120, 255);
+  fill(202, 34, 96);
   beginShape();
 
   for (let i = 0; i < b.points; i++) {
