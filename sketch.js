@@ -24,7 +24,7 @@ let blob3 = {
   // Movement tuning
   accel: 0.55, // Horizontal acceleration
   maxRun: 4.0, // Maximum horizontal speed
-  gravity: 0.1, // Downward force
+  gravity: 0.25, // Downward force
   jumpV: -11.0, // Initial jump impulse
 
   // State
