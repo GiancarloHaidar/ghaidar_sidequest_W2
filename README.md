@@ -25,8 +25,7 @@ Giancarlo Haidar, ghaidar, 21069200
 
 ## Assets
 
-> - `assets/sound/beep.mp3` (created in GarageBand)
-> - `assets/image/background.png` (original artwork)
+> - code (created by GBDA 302 Professors)
 
 ---
 
